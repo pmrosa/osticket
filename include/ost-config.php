@@ -28,7 +28,7 @@ if(OSTINSTALLED!=TRUE){
     header('Location: '.ROOT_PATH.'setup/install.php');
     exit;
 }
-
+yourservername.mysql.database.azure.com
 # Encrypt/Decrypt secret key - randomly generated during installation.
 define('SECRET_SALT','Ix0kZ3o1DEblWG9nRtCDBeN6NkMYvzf5');
 
@@ -41,7 +41,7 @@ define('ADMIN_EMAIL','demouser@opsgility.com');
 define('DBTYPE','mysql');
 define('DBHOST','yourservername.mysql.database.azure.com');
 define('DBNAME','osticket');
-define('DBUSER','demouser@yourservername');
+define('DBUSER','demouser@osticketsrv03pr');
 define('DBPASS','demo@pass123');
 
 # Table prefix
